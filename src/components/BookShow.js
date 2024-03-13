@@ -1,6 +1,6 @@
 function BookShow({ book }) {
     return (
-        <div>{book.title}</div>
+        <div className="book-show">{book.title}</div>
     );
 }
 
